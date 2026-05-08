@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu projeto prático</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="shortcut icon" href="img/icone.png" type="image/x-icon">
+</head>
+<body>
+
+    <!-- Cabeçlho -->
+    <header class="header-page">
+        <div class="container header-container">
+            <h1 class="bi bi-controller">Zizack Games <img src="img/icone.png" class="icone" alt="icone"></h1>
+            <nav>
+                <ul class="header-menu">
+                    <li><a href="index.html" class="item-menu">Home</a></li>
+                    <li><a href="loja.html" class="item-menu">Loja</a></li>
+                    <li><a href="suporte.html" class="item-menu">Suporte</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Conteúdo -->
+    <section class="hero">
+        <div class="container">
+            <h2>O maior <span style="color: var(--primary)">marketplace</span> gamer do Brasil</h2>
+            <p>A plataforma feita para descobrir, comprar e apoiar criadores.</p>
+        </div>
+        <video class="video" autoplay muted loop playsinline>
+            <source src="video/game.mp4" type="video/mp4">
+        </video>
+    </section>
+
+
+    <section class="games" id="games">
+        <div class="container">
+            <h2 class="titulo" style="margin-bottom: 30px;">Jogos em altas no Brasil</h2>
+        </div>
+        <div class="grid-cards">
+            <a href="#" class="card">
+                <img src="img/lol.jpg" alt="Controle">
+                <div class="card-game-info">
+                    <h3>League of Legends</h3>
+                    <p>Arena de batalha | RPG eletrônico de ação | PC</p>
+                </div>
+            </a>
+
+            <a href="#" class="card">
+                <img src="img/counter-strike-2.jpg" alt="counter-strike-2">
+                <div class="card-game-info">
+                    <h3>Counter Striker</h3>
+                    <p>FPS | Arcade | PC</p>
+                </div>
+            </a>
+
+            <a href="#" class="card">
+                <img src="img/mine.jpg" alt="minecraft">
+                <div class="card-game-info">
+                    <h3>Minecraft</h3>
+                    <p>Sandbox | Sobrevivência | PS5, XBOX E PC</p>
+                </div>
+            </a>
+
+            <a href="#" class="card">
+                <img src="img/dota.jpg" alt="Dota 2">
+                <div class="card-game-info">
+                    <h3>Counter Striker</h3>
+                    <p>Arena de batalha | RPG eletrônico de ação | PC</p>
+                </div>
+            </a>
+        </div>
+    </section>
+
+     <section class="newsletter">
+        <div class="container-rodape">
+            <h2 class="titulo" style="margin: 30px 0px;">Fique por dentro das novidades</h2>
+            <form class="newsletter-form" id="form-newsletter">
+                <input type="email" id="email-input" placeholder="Seu melhor e-mail"  required>
+                <button type="submit">Increver-se</button>
+            </form>
+        </div>
+     </section>
+
+     <!--Rodapé -->
+    <footer class="footer">
+        <div class="container-rodape" style="display: flex; justify-content: space-between; padding: 60px 0; border-top: 1px solid #30363d;">
+            <div class="footer-brand">
+                <h2>Zizack Games</h2>
+                <p>Tudo o que você procura, em um só lugar.</p>
+            </div>
+            <div class="footer-social">
+                <h4>Redes Sociais</h4>
+                <p><i class="bi bi-instagram"></i> <i class="bi bi-discord"></i></p>
+            </div>
+        </div>
+    </footer>
+
+    
+    
+    <script src="js/script.js"></script>
+</body>
+</html>
