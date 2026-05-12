@@ -5,29 +5,33 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title></title>
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/layout.css">
     <link rel="shortcut icon" href="img/icone.png" type="image/x-icon">
 </head>
 <body>
 
-    <!-- Cabeçalho -->
+  <!-- Cabeçalho -->
     <header class="header-page">
-        <div class="container header-container">
-            <h1 class="bi bi-controller"> <img src="img/icone.png" class="icone" alt="icone"></h1>
+        <div class="header-container">
+            <div class="name-page">
+                <h1 class="bi bi-controller"> MARKGAMES </h1>
+                <img src="img/icone.png" class="icone-page" alt="icone">
+            </div>
             <nav>
                 <ul class="header-menu">
-                    <li><a href="index.html" class="item-menu">Home</a></li>
-                    <li><a href="loja.html" class="item-menu">Loja</a></li>
-                    <li><a href="suporte.html" class="item-menu">Suporte</a></li>
+                    <li><a href="index.html" class="item-menu icones"><i class="fa-solid fa-house icones"></i> Home</a></li>
+                    <li><a href="loja.html" class="item-menu icones"><i class="fa-solid fa-gamepad icones"></i> Jogos</a></li>
+                    <li><a href="suporte.html" class="item-menu icones"><i class="fa-solid fa-laptop icones"></i> Suporte</a></li>
                 </ul>
             </nav>
         </div>
     </header>
-    <!-- Fim do cabeçalho -->
-
+    <!-- Fim do Cabeçalho -->
 
     <!-- Conteúdo -->
     <section class="hero">
         <div class="container">
+            <img src="img/capa.png" alt="playstation 1" class="capa-img">
             <h2>O maior <span style="color: var(--primary)">marketplace</span> gamer do Brasil</h2>
             <p>A plataforma feita para descobrir, comprar e apoiar criadores.</p>
         </div>
@@ -44,31 +48,61 @@
             </div>
             <div class="grid-cards">
                 <a href="#" class="card">
-                    <img src="img/lol.jpg" alt="Controle">
+                    <img src="img/games/lol.jpg" alt="Controle">
                     <div class="card-game-info">
                         <h3>League of Legends</h3>
                         <p>Arena de batalha | RPG eletrônico de ação | PC</p>
                     </div>
                 </a>
                 <a href="#" class="card">
-                    <img src="img/counter-strike-2.jpg" alt="counter-strike-2">
+                    <img src="img/games/counter-strike-2.jpg" alt="counter-strike-2">
                     <div class="card-game-info">
                         <h3>Counter Striker</h3>
                         <p>FPS | Arcade | PC</p>
                     </div>
                 </a>
                 <a href="#" class="card">
-                    <img src="img/mine.jpg" alt="minecraft">
+                    <img src="img/games/mine.jpg" alt="minecraft">
                     <div class="card-game-info">
                         <h3>Minecraft</h3>
-                        <p>Sandbox | Sobrevivência | PS5, XBOX E PC</p>
+                        <p>Sandbox | Sobrevivência | PS5, XBOX, PC e CELULAR</p>
                     </div>
                 </a>
                 <a href="#" class="card">
-                    <img src="img/dota.jpg" alt="Dota 2">
+                    <img src="img/games/dota.jpg" alt="Dota 2">
                     <div class="card-game-info">
-                        <h3>Counter Striker</h3>
+                        <h3>Dota 2</h3>
                         <p>Arena de batalha | RPG eletrônico de ação | PC</p>
+                    </div>
+                </a>
+            </div>
+            <div class="grid-cards">
+                <a href="#" class="card">
+                    <img src="img/games/gta.png" alt="Controle">
+                    <div class="card-game-info">
+                        <h3>GTA V</h3>
+                        <p>ação | aventura |  PS5, XBOX E PC</p>
+                    </div>
+                </a>
+                <a href="#" class="card">
+                    <img src="img/games/arc-raiders.png" alt="counter-strike-2">
+                    <div class="card-game-info">
+                        <h3>ARC Raiders</h3>
+                        <p>FPS | Extraction shooter | PS5, XBOX E PC</p>
+                    </div>
+                </a>
+                <a href="#" class="card">
+                    <img src="img/games/pubg.png" alt="minecraft">
+                    <div class="card-game-info">
+                        <h3>PUBG: BATTLEGROUNDS</h3>
+                        <p>Battle Royale | Sobrevivência | PS5, XBOX, PC e CELULAR</p>
+                    </div>
+                </a>
+                <a href="#" class="card">
+                    <img src="img/games/eafc.jpg" alt="Dota 2" >
+                    <div class="card-game-info">
+                        <h3>EA SPORTS FC™ 26</h3>
+                        <p>Esporte | Simulador | PS5, XBOX e PC</p>
                     </div>
                 </a>
             </div>
@@ -85,22 +119,29 @@
         </div>
      </section>
 
-     <!--Rodapé -->
+   <!--Rodapé -->
     <footer class="footer">
         <div class="container-rodape" style="display: flex; justify-content: space-between; padding: 60px 0; border-top: 1px solid #30363d;">
             <div class="footer-brand">
-                <h2>Zizack Games</h2>
+               <div class="name-page">
+                    <h1 class="bi bi-controller"> MARKGAMES </h1>
+                    <img src="img/icone.png" class="icone-page" alt="icone">
+               </div>
                 <p>Tudo o que você procura, em um só lugar.</p>
             </div>
             <div class="footer-social">
-                <h4>Redes Sociais</h4>
-                <p><i class="bi bi-instagram"></i> <i class="bi bi-discord"></i></p>
+                <h4 style="font-size: 20px; text-decoration: underline;">Redes Sociais:</h4>
+                <p class="icones"> <i class="fa-brands fa-instagram icones"></i> Instagram</i></p>
+                <p class="icones"> <i class="fa-brands fa-x-twitter icones"></i></i> Twitter</i></p>
+                <p class="icones"> <i class="fa-brands fa-facebook icones"></i></i> Facebook</i></p>
+                <p class="icones"> <i class="fa-brands fa-whatsapp icones"></i> Instagram</i></p>
             </div>
         </div>
     </footer>
-
+    <!-- Fim do Rodapé -->
     
     
     <script src="js/script.js"></script>
+    <script src="https://kit.fontawesome.com/3814eee1f6.js" crossorigin="anonymous"></script>
 </body>
 </html>
