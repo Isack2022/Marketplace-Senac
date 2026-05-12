@@ -18,14 +18,26 @@
     z-index: -2;
 }
 
+
 .capa-img{
     object-fit: cover;
     width: 80%;
 }
 
-.titulo{
+.titulo-card{
+    margin: 30px 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: 40px;
+    display: flex;
+    align-items: center;
+}
+
+.titulo-card img{
+    border-radius: 30px;
+    object-fit: cover;
+    margin-left: 15px;
+    width: 50px;
+    height: 50px;
 }
 
 .grid-cards {
